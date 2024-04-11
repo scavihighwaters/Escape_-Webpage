@@ -1,0 +1,297 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 10px 10px;
+    z-index: 100000;
+}
+header .logo{
+    display: flex;
+    position: relative;
+    transition: 0.6s;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -0%;
+}
+header .logo>img{
+    width: 25%;
+}
+
+button>img{
+  width: 60%;
+  margin-right: 35%;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.page2{
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.6s;
+    padding: 10px 40px;
+    height: 20%;
+    top: 40%;
+    left: 0%;
+    width: 100%;
+    z-index: 100;
+}
+.page2>img{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 200%;
+    width: 60%;
+    z-index: 101;
+}
+
+.page2-inner{
+    
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.6s;
+    padding: 10px 40px;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+.page2-inner>img{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: -1000;
+}
+.page2-inner>#yoda{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: -50;
+}
+.page2-inner>#blank{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: -51;
+}
+.page2-inner>#signa>#sign{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top : 69%;
+    height: 17%;
+    width: 7.5%;
+    left: 46%;
+    z-index: 10000;
+}
+
+
+#dissap{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: 998;
+}
+
+
+
+.page2-inner>#dissap>#dialogue-1{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1001;
+}
+
+@font-face {
+    font-family: a;
+    src: url(./PPmondwest.ttf);
+}
+
+#heto{
+    font-family: a;
+    font-size: 25px;
+    
+}
+
+#het1{
+    font-family: a;
+    font-size: 25px;
+    
+}
+.page2-inner>#dissap>#dialog_yod>#heto{
+    display: flex;
+    position: absolute;
+    top: 41.6%;
+    left: 16%;
+    z-index: 1002;   
+}
+
+.page2-inner>#dissap>#dialog_bob>#het1{
+    display: flex;
+    position: absolute;
+    top: 31.3%;
+    left: 65%;
+    z-index: 1002;   
+}
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 99990;
+}
+h1{
+    font-family: a;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+footer{
+     background-color: #000000ff;
+     position: relative;
+     width: 100%;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 80px;
+
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pa{
+    font-family: moon;
+    font-size: 14px;
+    width: 600px;
+    margin-top: 133px;
+    margin-left: 30px;
+    right: 30px;
+}
+.p{
+    left: -50px;
+    display: inline-flex;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.col{
+    min-width: 250px;
+    color:#f2f2f2f2;
+    font-family: poppins;
+}
+.col .logo{
+    width: 440px;
+    height: 140px;
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 70px;
+    margin-bottom: 60px;
+}
+
+.col h3{
+    font-family: moon;
+    color: #ff014fff;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 460px;
+}
+.col h3::after{
+    content: '';
+    height:3px;
+    width:0px;
+    background-color: #ff014fff;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    transition: 0.3s ease;
+
+}
+.col h3:hover{
+    color: white;
+}
+.col h3:hover::after{
+    color: #ff014fff;
+    width:140px
+}
+.col .social{
+    margin-left: 230px;
+}
+.col .social a{
+    font-family: moon;
+    display: inline-block;
+    text-decoration: none;
+    color:#f2f2f2;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+    position: relative;
+    transition: 0.3s ease;
+}
+.col .social a::before{
+    content:'';
+    height: 15px;
+    width:3px;
+    position: absolute;
+    top:1px;
+    left:-10px;
+    background-color: #ff014fff;
+    transition: 0.5s ease;
+    opacity: 0;
+    margin-right: 30px;
+}
+.col .social a:hover::before{
+    opacity: 1;
+}
+.col .social a:hover{
+    transform: translateX(-8px);
+    color:#ff014fff;
+}
