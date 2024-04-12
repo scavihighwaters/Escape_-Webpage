@@ -1,0 +1,65 @@
+@font-face {
+  font-family: PPmondwest;
+  src: url(fonts/PPmondwest.ttf);
+}
+
+@font-face {
+  font-family: martianMono;
+  src: url(fonts/martianMono.ttf);
+}
+
+body{
+    background-color:#b8f6cd;
+    font-family: martianMono;
+}
+header{
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    padding: 50px;
+    background: url(bgd-img.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+header h1{
+  font-size: 275px;
+  font-family: PPmondwest;
+}
+header button{
+  background-color: #000;
+  color: white;
+  height: 30px;
+  
+}
+header button:hover,
+header button:focus{
+  background-color: #b8f6cd;
+  color: #000;
+  border: 1px solid black;
+  cursor: pointer;
+}
+main{
+    margin: 50px;
+    padding: 50px;
+    
+}
+
+  footer{
+    background-color: #000;
+    color: white;
+    border-radius: 25px;
+    padding: 30px;
+  }
+
+  footer div{
+    padding: 20px;
+  }
+
+  p{
+    font-family: martianMono;
+  }
+
+  button{
+    font-family: martianMono;
+  }

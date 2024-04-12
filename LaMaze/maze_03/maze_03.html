@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="high">
+            <div id="stats">
+                <img src="output-onlinepngtools.png" alt="" class="logo">
+                <h2 id="curr">Navigate through asteroid fields swiftly to<br> find the path to freedom in this cosmic maze!</h2>
+            </div>
+            <div class="maze">
+                <div class="columns" id="c01">
+                    <div class="rows" id="r0101"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0102"></div>
+                    <div class="rows" id="r0103"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0104"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0105"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0106"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0107"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0108"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0109"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0110"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0111"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0112"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0113"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0114"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0115"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0116"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0117"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0118"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0119"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0120"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0121"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c02">
+                    <div class="rows" id="r0201"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0202"></div>
+                    <div class="rows" id="r0203"></div>
+                    <div class="rows" id="r0204"></div>
+                    <div class="rows" id="r0205"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0206"></div>
+                    <div class="rows" id="r0207"></div>
+                    <div class="rows" id="r0208"></div>
+                    <div class="rows" id="r0209"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0210"></div>
+                    <div class="rows" id="r0211"></div>
+                    <div class="rows" id="r0212"></div>
+                    <div class="rows" id="r0213"></div>
+                    <div class="rows" id="r0214"></div>
+                    <div class="rows" id="r0215"></div>
+                    <div class="rows" id="r0216"></div>
+                    <div class="rows" id="r0217"></div>
+                    <div class="rows" id="r0218"></div>
+                    <div class="rows" id="r0219"></div>
+                    <div class="rows" id="r0220"></div>
+                    <div class="rows" id="r0221"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c03">
+                    <div class="rows" id="r0301"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0302"></div>
+                    <div class="rows" id="r0303"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0304"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0305"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0306"></div>
+                    <div class="rows" id="r0307"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0308"></div>
+                    <div class="rows" id="r0309"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0310"></div>
+                    <div class="rows" id="r0311"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0312"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0313"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0314"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0315"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0316"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0317"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0318"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0319"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0320"></div>
+                    <div class="rows" id="r0321"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c04">
+                    <div class="rows" id="r0401"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0402"></div>
+                    <div class="rows" id="r0403"></div>
+                    <div class="rows" id="r0404"></div>
+                    <div class="rows" id="r0405"></div>
+                    <div class="rows" id="r0406"></div>
+                    <div class="rows" id="r0407"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0408"></div>
+                    <div class="rows" id="r0409"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0410"></div>
+                    <div class="rows" id="r0411"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0412"></div>
+                    <div class="rows" id="r0413"></div>
+                    <div class="rows" id="r0414"></div>
+                    <div class="rows" id="r0415"></div>
+                    <div class="rows" id="r0416"></div>
+                    <div class="rows" id="r0417"></div>
+                    <div class="rows" id="r0418"></div>
+                    <div class="rows" id="r0419"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0420"></div>
+                    <div class="rows" id="r0421"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c05">
+                    <div class="rows" id="r0501"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0502"></div>
+                    <div class="rows" id="r0503"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0504"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0505"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0506"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0507"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0508"></div>
+                    <div class="rows" id="r0509"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0510"></div>
+                    <div class="rows" id="r0511"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0512"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0513"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0514"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0515"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0516"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0517"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0518"></div>
+                    <div class="rows" id="r0519"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0520"></div>
+                    <div class="rows" id="r0521"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c06">
+                    <div class="rows" id="r0601"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0602"></div>
+                    <div class="rows" id="r0603"></div>
+                    <div class="rows" id="r0604"></div>
+                    <div class="rows" id="r0605"></div>
+                    <div class="rows" id="r0606"></div>
+                    <div class="rows" id="r0607"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0608"></div>
+                    <div class="rows" id="r0609"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0610"></div>
+                    <div class="rows" id="r0611"></div>
+                    <div class="rows" id="r0612"></div>
+                    <div class="rows" id="r0613"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0614"></div>
+                    <div class="rows" id="r0615"></div>
+                    <div class="rows" id="r0616"></div>
+                    <div class="rows" id="r0617"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0618"></div>
+                    <div class="rows" id="r0619"></div>
+                    <div class="rows" id="r0620"></div>
+                    <div class="rows" id="r0621"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c07">
+                    <div class="rows" id="r0701"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0702"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0703"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0704"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0705"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0706"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0707"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0708"></div>
+                    <div class="rows" id="r0709"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0710"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0711"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0712"></div>
+                    <div class="rows" id="r0713"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0714"></div>
+                    <div class="rows" id="r0715"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0716"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0717"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0718"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0719"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0720"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0721"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c08">
+                    <div class="rows" id="r0801"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0802"></div>
+                    <div class="rows" id="r0803"></div>
+                    <div class="rows" id="r0804"></div>
+                    <div class="rows" id="r0805"></div>
+                    <div class="rows" id="r0806"></div>
+                    <div class="rows" id="r0807"></div>
+                    <div class="rows" id="r0808"></div>
+                    <div class="rows" id="r0809"></div>
+                    <div class="rows" id="r0810"></div>
+                    <div class="rows" id="r0811"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0812"></div>
+                    <div class="rows" id="r0813"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0814"></div>
+                    <div class="rows" id="r0815"></div>
+                    <div class="rows" id="r0816"></div>
+                    <div class="rows" id="r0817"></div>
+                    <div class="rows" id="r0818"></div>
+                    <div class="rows" id="r0819"></div>
+                    <div class="rows" id="r0820"></div>
+                    <div class="rows" id="r0821"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c09">
+                    <div class="rows" id="r0901"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0902"></div>
+                    <div class="rows" id="r0903"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0904"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0905"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0906"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0907"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0908"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0909"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0910"></div>
+                    <div class="rows" id="r0911"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0912"></div>
+                    <div class="rows" id="r0913"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0914"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0915"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0916"></div>
+                    <div class="rows" id="r0917"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0918"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0919"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r0920"></div>
+                    <div class="rows" id="r0921"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c10">
+                    <div class="rows" id="r1001"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1002"></div>
+                    <div class="rows" id="r1003"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1004"></div>
+                    <div class="rows" id="r1005"></div>
+                    <div class="rows" id="r1006"></div>
+                    <div class="rows" id="r1007"></div>
+                    <div class="rows" id="r1008"></div>
+                    <div class="rows" id="r1009"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1010"></div>
+                    <div class="rows" id="r1011"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1012"></div>
+                    <div class="rows" id="r1013"></div>
+                    <div class="rows" id="r1014"></div>
+                    <div class="rows" id="r1015"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1016"></div>
+                    <div class="rows" id="r1017"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1018"></div>
+                    <div class="rows" id="r1019"></div>
+                    <div class="rows" id="r1020"></div>
+                    <div class="rows" id="r1021"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c11">
+                    <div class="rows" id="r1101"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1102"></div>
+                    <div class="rows" id="r1103"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1104"></div>
+                    <div class="rows" id="r1105"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1106"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1107"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1108"></div>
+                    <div class="rows" id="r1109"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1110"></div>
+                    <div class="rows" id="r1111"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1112"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1113"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1114"></div>
+                    <div class="rows" id="r1115"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1116"></div>
+                    <div class="rows" id="r1117"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1118"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1119"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1120"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1121"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c12">
+                    <div class="rows" id="r1201"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1202"></div>
+                    <div class="rows" id="r1203"></div>
+                    <div class="rows" id="r1204"></div>
+                    <div class="rows" id="r1205"></div>
+                    <div class="rows" id="r1206"></div>
+                    <div class="rows" id="r1207"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1208"></div>
+                    <div class="rows" id="r1209"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1210"></div>
+                    <div class="rows" id="r1211"></div>
+                    <div class="rows" id="r1212"></div>
+                    <div class="rows" id="r1213"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1214"></div>
+                    <div class="rows" id="r1215"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1216"></div>
+                    <div class="rows" id="r1217"></div>
+                    <div class="rows" id="r1218"></div>
+                    <div class="rows" id="r1219"></div>
+                    <div class="rows" id="r1220"></div>
+                    <div class="rows" id="r1221"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c13">
+                    <div class="rows" id="r1301"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1302"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1303"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1304"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1305"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1306"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1307"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1308"></div>
+                    <div class="rows" id="r1309"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1310"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1311"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1312"></div>
+                    <div class="rows" id="r1313"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1314"></div>
+                    <div class="rows" id="r1315"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1316"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1317"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1318"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1319"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1320"></div>
+                    <div class="rows" id="r1321"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c14">
+                    <div class="rows" id="r1401"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1402"></div>
+                    <div class="rows" id="r1403"></div>
+                    <div class="rows" id="r1404"></div>
+                    <div class="rows" id="r1405"></div>
+                    <div class="rows" id="r1406"></div>
+                    <div class="rows" id="r1407"></div>
+                    <div class="rows" id="r1408"></div>
+                    <div class="rows" id="r1409"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1410"></div>
+                    <div class="rows" id="r1411"></div>
+                    <div class="rows" id="r1412"></div>
+                    <div class="rows" id="r1413"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1414"></div>
+                    <div class="rows" id="r1415"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1416"></div>
+                    <div class="rows" id="r1417"></div>
+                    <div class="rows" id="r1418"></div>
+                    <div class="rows" id="r1419"></div>
+                    <div class="rows" id="r1420"></div>
+                    <div class="rows" id="r1421"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c15">
+                    <div class="rows" id="r1501"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1502"></div>
+                    <div class="rows" id="r1503"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1504"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1505"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1506"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1507"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1508"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1509"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1510"></div>
+                    <div class="rows" id="r1511"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1512"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1513"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1514"></div>
+                    <div class="rows" id="r1515"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1516"></div>
+                    <div class="rows" id="r1517"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1518"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1519"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1520"></div>
+                    <div class="rows" id="r1521"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c16">
+                    <div class="rows" id="r1601"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1602"></div>
+                    <div class="rows" id="r1603"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1604"></div>
+                    <div class="rows" id="r1605"></div>
+                    <div class="rows" id="r1606"></div>
+                    <div class="rows" id="r1607"></div>
+                    <div class="rows" id="r1608"></div>
+                    <div class="rows" id="r1609"></div>
+                    <div class="rows" id="r1610"></div>
+                    <div class="rows" id="r1611"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1612"></div>
+                    <div class="rows" id="r1613"></div>
+                    <div class="rows" id="r1614"></div>
+                    <div class="rows" id="r1615"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1616"></div>
+                    <div class="rows" id="r1617"></div>
+                    <div class="rows" id="r1618"></div>
+                    <div class="rows" id="r1619"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1620"></div>
+                    <div class="rows" id="r1621"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c17">
+                    <div class="rows" id="r1701"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1702"></div>
+                    <div class="rows" id="r1703"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1704"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1705"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1706"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1707"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1708"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1709"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1710"></div>
+                    <div class="rows" id="r1711"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1712"></div>
+                    <div class="rows" id="r1713"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1714"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1715"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1716"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1717"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1718"></div>
+                    <div class="rows" id="r1719"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1720"></div>
+                    <div class="rows" id="r1721"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c18">
+                    <div class="rows" id="r1801"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1802"></div>
+                    <div class="rows" id="r1803"></div>
+                    <div class="rows" id="r1804"></div>
+                    <div class="rows" id="r1805"></div>
+                    <div class="rows" id="r1806"></div>
+                    <div class="rows" id="r1807"></div>
+                    <div class="rows" id="r1808"></div>
+                    <div class="rows" id="r1809"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1810"></div>
+                    <div class="rows" id="r1811"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1812"></div>
+                    <div class="rows" id="r1813"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1814"></div>
+                    <div class="rows" id="r1815"></div>
+                    <div class="rows" id="r1816"></div>
+                    <div class="rows" id="r1817"></div>
+                    <div class="rows" id="r1818"></div>
+                    <div class="rows" id="r1819"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1820"></div>
+                    <div class="rows" id="r1821"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c19">
+                    <div class="rows" id="r1901"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1902"></div>
+                    <div class="rows" id="r1903"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1904"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1905"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1906"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1907"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1908"></div>
+                    <div class="rows" id="r1909"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1910"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1911"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1912"></div>
+                    <div class="rows" id="r1913"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1914"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1915"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1916"></div>
+                    <div class="rows" id="r1917"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1918"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1919"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r1920"></div>
+                    <div class="rows" id="r1921"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c20">
+                    <div class="rows" id="r2001"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2002"></div>
+                    <div class="rows" id="r2003"></div>
+                    <div class="rows" id="r2004"></div>
+                    <div class="rows" id="r2005"></div>
+                    <div class="rows" id="r2006"></div>
+                    <div class="rows" id="r2007"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2008"></div>
+                    <div class="rows" id="r2009"></div>
+                    <div class="rows" id="r2010"></div>
+                    <div class="rows" id="r2011"></div>
+                    <div class="rows" id="r2012"></div>
+                    <div class="rows" id="r2013"></div>
+                    <div class="rows" id="r2014"></div>
+                    <div class="rows" id="r2015"></div>
+                    <div class="rows" id="r2016"></div>
+                    <div class="rows" id="r2017"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2018"></div>
+                    <div class="rows" id="r2019"></div>
+                    <div class="rows" id="r2020"></div>
+                    <div class="rows" id="r2021"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+                <div class="columns" id="c21">
+                    <div class="rows" id="r2101"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2102"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2103"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2104"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2105"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2106"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2107"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2108"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2109"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2110"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2111"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2112"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2113"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2114"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2115"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2116"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2117"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2118"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2119"><img src="asteroid.png" alt="" height="30px"></div>
+                    <div class="rows" id="r2120"></div>
+                    <div class="rows" id="r2121"><img src="asteroid.png" alt="" height="30px"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="message"></p>
+          <button id="retryButton">Reset</button>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
